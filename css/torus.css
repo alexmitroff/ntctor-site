@@ -1,0 +1,77 @@
+
+html, body {
+    font-family: 'Source Sans Pro';
+    font-size:16px;
+}
+
+a,
+div#projects + div > div > a > div{
+	-moz-transition: all .3s ease-out 0s;
+	-webkit-transition: all .3s ease-out 0s;
+	-o-transition: all .3s ease-out 0s;
+	-ms-transition: all .3s ease-out 0s;
+	transition: all .3s ease-out 0s;
+}
+
+body {
+    padding-top: 70px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+	padding-bottom:1rem;
+  }
+
+footer{
+    background-color:#eee;
+}
+
+img {
+    margin-top:15px;
+}
+
+
+.text {
+    margin-top:25px;
+}
+
+.container_map > div{
+    width:100%;
+    height:250px;
+}
+
+.contact{
+    margin-top:25px;    
+}
+
+div#projects + div > div > a > div {
+    height:370px;
+}
+
+
+div#projects + div > div > a:hover > div {
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+}
+
+.almaz{
+	color:#376EB5;
+	white-space:nowrap;
+}
+
+ol{ counter-reset: item }
+ol > li { display: block }
+ol > li:before { 
+	content:counters(item, ".") ". "; 
+	counter-increment: item;
+	font-size: 1.8rem; }
+ol > li > ol > li:before{
+	font-size:1rem;
+	}
+.table-name,
+.project-list h2,
+.project-list h3{
+	display:inline;
+}

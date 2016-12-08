@@ -1,0 +1,3 @@
+ErrorDocument 403 http://www.sweb.ru/wrong
+DirectoryIndex about.html index.htm index.html index.shtml index.cgi index.php3 index.php index.php4 index.phtml index.wml
+Options  -Indexes
